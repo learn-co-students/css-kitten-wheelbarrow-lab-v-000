@@ -54,7 +54,7 @@ img#kitty-2 {
 
 /*__write_selector_here__*/
 
-#ball+img {
+#ball + img {
     position: absolute;
     z-index: 4;
     top: 260px;
