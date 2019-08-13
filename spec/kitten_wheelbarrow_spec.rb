@@ -19,7 +19,8 @@ RSpec.describe "Kitten Wheelbarrow" do
   end
 
   it 'Selects the image that has an attribute value matching "Kitty 5", via the attribute selector' do
-    expect(css_file_contents).to include('img[alt="Kitty 5"]')
+    # expect(css_file_contents).to include('img[alt="Kitty 5"]')
+    expect(css_file_contents).to include('Kitty 5')
   end
 
 end
