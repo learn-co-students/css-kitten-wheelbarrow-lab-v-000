@@ -21,18 +21,25 @@ img {
   height: 514px;
 }
 
-#wheelbarrow { 
+#wheelbarrow {
   position: relative;
   background: url(../images/wheelbarrow.png) no-repeat;
   z-index: 0;
   top: 220px;
 }
+
 #wheelbarrow-foreground {
   pointer-events: none;
   position: absolute;
   background: url(../images/wheelbarrow-foreground.png) no-repeat;
   z-index: 10;
   top: 220px;
+}
+
+#shadow {
+z-index: 8;
+left: 5%;
+bottom: 1%;
 }
 
 #basket, #ball {
