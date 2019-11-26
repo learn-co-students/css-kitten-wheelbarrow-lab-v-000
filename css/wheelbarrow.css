@@ -21,7 +21,7 @@ img {
   height: 514px;
 }
 
-#wheelbarrow { 
+#wheelbarrow {
   position: relative;
   background: url(../images/wheelbarrow.png) no-repeat;
   z-index: 0;
@@ -37,4 +37,41 @@ img {
 
 #basket, #ball {
   display: inline;
+}
+
+/* Select the image with a class of kitty-1 */
+
+img.kitty-1 {
+  position: absolute;
+  z-index: 1;
+  top: 276px;
+  left: 129px;
+}
+
+#kitty-2 {
+  position: absolute;
+  z-index: 2;
+  top: 212px;
+  left: 369px;
+}
+
+#basket img {
+  position: absolute;
+  z-index: 5;
+  top: 291px;
+  left: 319px;
+}
+
+#ball + img {
+  position: absolute;
+  z-index: 4;
+  top: 260px;
+  left: 455px;
+}
+
+img[alt="Kitty 5"] {
+  position: absolute;
+  z-index: 3;
+  top: 217px;
+  left: 223px;
 }
