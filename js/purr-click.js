@@ -4,5 +4,3 @@ $(function(){
     player1.play();
   });
 });
-
-
